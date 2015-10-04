@@ -1,0 +1,2 @@
+F:\trikaar\Trikaar\Trikaar\obj\Debug\Trikaar.njsprojResolveAssemblyReference.cache
+F:\trikaar\Trikaar\Trikaar\bin\Microsoft.NodejsTools.WebRole.dll
