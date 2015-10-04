@@ -1,0 +1,78 @@
+2015-10-04T14:53:39.543+0530 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-10-04T14:53:39.558+0530 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-10-04T14:53:39.858+0530 I CONTROL  Service 'MongoDB' (MongoDB) installed with command line '"F:\Program Files\MongoDB\bin\mongod.exe" --config "F:\Program Files\MongoDB\bin\mongod.conf" --service'
+2015-10-04T14:53:39.858+0530 I CONTROL  Service can be started from the command line with 'net start MongoDB'
+2015-10-04T14:53:52.948+0530 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-04T14:53:52.948+0530 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-10-04T14:53:52.948+0530 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-10-04T14:53:52.948+0530 I STORAGE  Service running
+2015-10-04T14:53:52.963+0530 I JOURNAL  [initandlisten] journal dir=F:\trikaar\mongoDB\data\db\journal
+2015-10-04T14:53:52.992+0530 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-10-04T14:53:53.069+0530 I JOURNAL  [durability] Durability thread started
+2015-10-04T14:53:53.070+0530 I JOURNAL  [journal writer] Journal writer thread started
+2015-10-04T14:53:53.075+0530 I CONTROL  [initandlisten] MongoDB starting : pid=9008 port=27017 dbpath=F:\trikaar\mongoDB\data\db 64-bit host=MeanMachine
+2015-10-04T14:53:53.075+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-10-04T14:53:53.075+0530 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-04T14:53:53.075+0530 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-04T14:53:53.075+0530 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-10-04T14:53:53.076+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-04T14:53:53.076+0530 I CONTROL  [initandlisten] options: { config: "F:\Program Files\MongoDB\bin\mongod.conf", service: true, storage: { dbPath: "F:\trikaar\mongoDB\data\db" }, systemLog: { destination: "file", logAppend: true, path: "F:\trikaar\mongoDB\mongo-logs.log" } }
+2015-10-04T14:53:53.078+0530 I INDEX    [initandlisten] allocating new ns file F:\trikaar\mongoDB\data\db\local.ns, filling with zeroes...
+2015-10-04T14:53:53.593+0530 I STORAGE  [FileAllocator] allocating new datafile F:\trikaar\mongoDB\data\db\local.0, filling with zeroes...
+2015-10-04T14:53:53.594+0530 I STORAGE  [FileAllocator] creating directory F:\trikaar\mongoDB\data\db\_tmp
+2015-10-04T14:53:53.811+0530 I STORAGE  [FileAllocator] done allocating datafile F:\trikaar\mongoDB\data\db\local.0, size: 64MB,  took 0.213 secs
+2015-10-04T14:53:53.879+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-04T15:06:32.772+0530 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2015-10-04T15:06:33.318+0530 I CONTROL  [serviceStopWorker] now exiting
+2015-10-04T15:06:33.318+0530 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-10-04T15:06:33.319+0530 I NETWORK  [serviceStopWorker] closing listening socket: 388
+2015-10-04T15:06:33.331+0530 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-10-04T15:06:33.332+0530 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-10-04T15:06:33.332+0530 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-10-04T15:06:33.333+0530 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-10-04T15:06:33.335+0530 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-10-04T15:06:33.336+0530 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-10-04T15:06:33.338+0530 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-10-04T15:06:33.436+0530 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-10-04T15:06:33.436+0530 I JOURNAL  [durability] Durability thread stopped
+2015-10-04T15:06:33.437+0530 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-10-04T15:06:33.478+0530 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-10-04T15:06:33.478+0530 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-10-04T15:06:33.479+0530 I CONTROL  [serviceStopWorker] dbexit:  rc: 49
+2015-10-04T15:09:54.139+0530 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-04T15:09:54.295+0530 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-10-04T15:09:54.295+0530 I CONTROL  Trying to install Windows service 'MongoDB'
+2015-10-04T15:09:54.295+0530 I CONTROL  There is already a service named 'MongoDB', sleeping and retrying
+2015-10-04T15:10:00.999+0530 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-04T15:10:01.014+0530 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-10-04T15:10:01.014+0530 I CONTROL  Trying to start Windows service 'MongoDB'
+2015-10-04T15:10:01.014+0530 I STORAGE  Service running
+2015-10-04T15:10:01.117+0530 I JOURNAL  [initandlisten] journal dir=F:\trikaar\Trikaar\mongoDB\data\db\journal
+2015-10-04T15:10:01.118+0530 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-10-04T15:10:01.205+0530 I JOURNAL  [durability] Durability thread started
+2015-10-04T15:10:01.207+0530 I CONTROL  [initandlisten] MongoDB starting : pid=9584 port=27017 dbpath=F:\trikaar\Trikaar\mongoDB\data\db 64-bit host=MeanMachine
+2015-10-04T15:10:01.207+0530 I JOURNAL  [journal writer] Journal writer thread started
+2015-10-04T15:10:01.207+0530 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2015-10-04T15:10:01.208+0530 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-04T15:10:01.208+0530 I CONTROL  [initandlisten] git version: 1ef45a23a4c5e3480ac919b28afcba3c615488f2
+2015-10-04T15:10:01.208+0530 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-10-04T15:10:01.209+0530 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-04T15:10:01.209+0530 I CONTROL  [initandlisten] options: { config: "F:\Program Files\MongoDB\bin\mongod.conf", service: true, storage: { dbPath: "F:\trikaar\Trikaar\mongoDB\data\db" }, systemLog: { destination: "file", logAppend: true, path: "F:\trikaar\Trikaar\mongoDB\mongo-logs.log" } }
+2015-10-04T15:10:01.326+0530 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-04T15:29:04.006+0530 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2015-10-04T15:29:04.010+0530 I CONTROL  [serviceStopWorker] now exiting
+2015-10-04T15:29:04.010+0530 I NETWORK  [serviceStopWorker] shutdown: going to close listening sockets...
+2015-10-04T15:29:04.010+0530 I NETWORK  [serviceStopWorker] closing listening socket: 388
+2015-10-04T15:29:04.011+0530 I NETWORK  [serviceStopWorker] shutdown: going to flush diaglog...
+2015-10-04T15:29:04.011+0530 I NETWORK  [serviceStopWorker] shutdown: going to close sockets...
+2015-10-04T15:29:04.011+0530 I STORAGE  [serviceStopWorker] shutdown: waiting for fs preallocator...
+2015-10-04T15:29:04.012+0530 I STORAGE  [serviceStopWorker] shutdown: final commit...
+2015-10-04T15:29:04.024+0530 I JOURNAL  [serviceStopWorker] journalCleanup...
+2015-10-04T15:29:04.025+0530 I JOURNAL  [serviceStopWorker] removeJournalFiles
+2015-10-04T15:29:04.026+0530 I JOURNAL  [serviceStopWorker] Terminating durability thread ...
+2015-10-04T15:29:04.137+0530 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-10-04T15:29:04.137+0530 I JOURNAL  [durability] Durability thread stopped
+2015-10-04T15:29:04.138+0530 I STORAGE  [serviceStopWorker] shutdown: closing all files...
+2015-10-04T15:29:04.144+0530 I STORAGE  [serviceStopWorker] closeAllFiles() finished
+2015-10-04T15:29:04.144+0530 I STORAGE  [serviceStopWorker] shutdown: removing fs lock...
+2015-10-04T15:29:04.145+0530 I CONTROL  [serviceStopWorker] dbexit:  rc: 49

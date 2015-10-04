@@ -1,0 +1,10 @@
+{
+  "name": "Trikaar",
+  "version": "0.0.0",
+  "description": "Trikaar",
+  "main": "server.js",
+  "author": {
+    "name": "Slash",
+    "email": ""
+  }
+}
